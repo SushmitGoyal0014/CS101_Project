@@ -11,7 +11,7 @@ The analysis is organised into **three independent questions**, each solved in i
 
 ### 1. `ques1.py` – Simulating PageRank via Random Walk  
 
-* Builds a directed graph from `project2_data.csv`.  
+* Builds a directed graph from `impressionNetwork.csv`.  
 * Runs a **random walk with teleportation** (teleport‑probability = 0 .15, 100 000 steps).  
 * Every time the walker lands on a node, that node earns a “coin.”  
 * After the walk, the accumulated coins give a PageRank‑like **importance score** for each student.
@@ -44,7 +44,7 @@ for both CSB and MCB, where \(n\) is the number of nodes in the sub‑graph.
 
 ---
 
-## 📁 Dataset — `project2_data.csv`
+## 📁 Dataset — `impressionNetwork.csv`
 
 The CSV file must sit in the same folder as the scripts.  
 Structure (header row + 30 columns of impressions):
